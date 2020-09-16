@@ -1,0 +1,120 @@
+html, body {
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    background-color: #0b6b1b;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    color: white;
+    z-index: 10;
+}
+#logo {
+    padding-top: 8px;
+    width: 40px;
+    position: absolute;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0;  
+
+}
+li {
+    float: left;
+    padding: 12 20 11 20 ;
+    font-size: 30px;
+}
+li:hover {
+    background-color: #389b49;
+}
+#fundo {
+    background: url(ab.png) no-repeat ;
+    text-align: center;
+    height: 100%;
+    background-size: cover;
+}
+#acao {
+    color: wheat;
+    border: wheat 1px solid;
+    padding: 5px 5px 5px 5px;
+}
+#titulo {
+    color: wheat;
+    padding-top: 20%;
+    font-size: 55;
+    text-shadow: black 2px 2px;
+}
+#subtitulo {
+    color: wheat;
+    text-shadow: black 2px 2px;
+}
+#projeto {
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-top: 20px;
+    float: left;
+    background-color: white;
+}
+.icons {
+    width: 70px;
+}
+#imagens {
+    padding-left: 10px ;
+    padding-right: 10px;
+    text-align: center;
+}
+p {
+    font-size: 19px;
+    color: black;
+    text-align: justify ;
+}
+.coluna {
+    float: right;
+    padding: 0 5%;
+    position: relative ;
+    width: 40%;
+}
+h2 {
+    text-align: center;
+}
+.colunaicons {
+    float: left ;
+    padding: 0 5%;
+    position: relative;
+    width: 23%;
+}
+#ajuste {
+    padding-left: 5%;
+    padding-right: 5% ;
+}
+#sobrem {
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-top: 20px;
+    float: left;
+    background-color: wheat;
+}
+.sobre {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+footer {
+    float: left;
+    border: #0b6b1b 5px solid ;
+    width: 100%;
+    height: 40%;
+    padding-top: 20px ;
+    padding-left: 20px ;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    position: relative;
+}
+.tex {
+    text-align: center;
+}
